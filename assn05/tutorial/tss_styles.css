@@ -34,6 +34,14 @@ body{
 
 /* Heading Styles */
 
+h1 {
+   font-size: 2.2em;
+}
+
+h2 {
+   font-size: 1.5em;
+}
+
 h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
 }
@@ -56,13 +64,21 @@ color: rgb(101, 101, 101);
 
 /* Aside and Blockquote Styles */
 
+aside blockquote {
+   color: rgb(232,165,116);
+}
 
+aside {
+font-size: 0.8em;
+}
 
 
 
 /* Navigation Styles */	
 
-
+nav {
+   font-size: 0.8em;
+}
 
 
 
