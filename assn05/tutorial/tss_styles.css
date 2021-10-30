@@ -67,13 +67,14 @@ color: rgb(101, 101, 101);
 
 aside blockquote {
    color: rgb(232,165,116);
+   margin: 20px 5px;
 }
 
 aside {
 font-size: 0.8em;
 }
 
-
+ 
 
 /* Navigation Styles */	
 
