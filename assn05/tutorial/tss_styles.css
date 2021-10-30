@@ -40,6 +40,11 @@ article#about_tss h2{
 }
 
 
+article.syllabus h1, article.syllabus h2 {
+background-color: rgb(255, 185, 255);
+color: rgb(101, 101, 101);
+}
+
 /* Aside and Blockquote Styles */
 
 
