@@ -68,7 +68,21 @@ section.playbill h1{
    padding-left: 20px;
 }
 
+#play1{
+   background-color: hsl(240, 100%, 88%);
+}
 
+#play2{
+   background-color: hsl(25, 88%, 73%);
+}
+
+#play3{
+   background-color: hsl(0, 100%, 75%);
+}
+
+#play4{
+   background-color: hsl(296, 86%, 86%);   
+}
 
 /*Every Paragraph Style*/
 p{
