@@ -48,7 +48,7 @@ html{
 p{
 
    margin: 0px;
-   
+
    padding-top: 5px;
    
    padding-left: 25px;
@@ -59,7 +59,13 @@ p{
    
    }
 
+   body > p{
 
+      font-size: 1.1em;
+      
+      text-align: center;
+      
+      }
 
 /* Description List Styles */
 
