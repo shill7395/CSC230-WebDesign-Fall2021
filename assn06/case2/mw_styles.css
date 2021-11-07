@@ -46,8 +46,20 @@ h1 h2{
 
 /* Navigation Styles */
 
+nav > ul {
+   list-style-type: none;
+   line-height: 2em;
+   font-size: 0.9em;
+}
 
+nav a:visited, nav a:link {
+   text-decoration: none;
+   color:rgb(43, 59, 125);
+}
 
+nav a:hover, nav a:active {
+   color:rgb(212, 35, 35);
+}
 
 /* Article Styles */
 
