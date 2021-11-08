@@ -76,6 +76,7 @@ section#rightColumn > nav.horizontalNavigation li {
 /* Footer Styles */
 
 footer {
+   background-color: rgb(71, 52, 29);
    clear: left;
 }
 
