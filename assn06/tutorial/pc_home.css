@@ -42,6 +42,10 @@ nav.horizontalNavigation li {
    float: left;
 }
 
+nav.horizontalNavigation a{
+   display: block;
+   text-align: center;
+}
 
 /* Left Column Styles */
 
