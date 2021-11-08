@@ -15,11 +15,19 @@
 
 /* Body Styles */
 
+body {
+   max-width: 960 px;
+   min-width: 640px;
+   width:95%;
+}
 
 
 /* Body Header Styles */
 
-
+body > header > img {
+   display: block;
+   width: 100%;
+}
 
 
 /* Horizontal Navigation Styles */
