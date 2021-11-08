@@ -15,12 +15,22 @@
 
 /* Grid Rows Styles */
 
+div.row {
+   clear: both;
+}
 
+div.row::after {
+   clear: both; 
+   content: "";
+   display: table;
+}
 
 
 /* Grid Columns Styles */
 
-
+div[class^="col-"] {
+   float: left;
+}
 
 
 /* Grid Outline Styles */
