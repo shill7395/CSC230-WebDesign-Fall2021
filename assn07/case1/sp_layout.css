@@ -67,7 +67,11 @@ header > nav > a {
 
 /* Horizontal Navigation List Styles */
 
-
+nav.horizontal li {
+   display: block;
+   float: left;
+   width: 12.5%;
+}
 
 
 /* Topics Styles */
