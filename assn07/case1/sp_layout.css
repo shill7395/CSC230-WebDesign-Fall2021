@@ -108,7 +108,33 @@ hr {
 
 /* Customer Comment Styles */
 
+ul#comments {
+   width: 75%;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-right: auto;
+   margin-left: auto;
+}
 
+ul#comments li {
+   display: block;
+   width: 50%;
+   float: left;
+   margin-bottom: 30px;
+}
+
+ul#comments li img {
+   display: block;
+   width: 20%;
+   float: left;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+li p {
+   float: left;
+   width: 70%;
+}
 
 /* Footer Styles */
 
