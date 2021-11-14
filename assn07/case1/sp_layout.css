@@ -84,9 +84,20 @@ ul#topics li {
    margin-right: 1.5%;
 }
 
+#topics li:first-child {
+   margin-left: 7.75%;
+}
 
+#topics li:last-child {
+   margin-right: 7.75%;
+}
 
-
+#topics img {
+   display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 /* HR Styles */
 
