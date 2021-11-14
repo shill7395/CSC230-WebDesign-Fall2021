@@ -15,8 +15,16 @@
 
 /* Grid Rows Styles */
 
+div.row {
+   width: 100%;
+   clear: both;
+}
 
-
+div.row::after {
+   display: table;
+   clear: both;
+   content: "";
+}
 
 /* Grid Columns Styles */
 
