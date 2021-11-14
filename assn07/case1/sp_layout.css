@@ -137,5 +137,7 @@ li p {
 }
 
 /* Footer Styles */
-
+footer {
+   clear: both;
+}
 
