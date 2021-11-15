@@ -41,8 +41,34 @@ nav > ul > li > a {
 
 /* Body Header Styles */
 
+header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
 
+nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
 
+header > nav > ul > li > a:link {
+   font-size: 0.9em;
+   color:  rgb(51, 51, 51);
+}
+
+header > nav > ul > li > a:visited {
+   font-size: 0.9em;
+   color:  rgb(51, 51, 51);
+}
+
+header > nav> ul > li > a:hover, header > nav > ul > li > a:active {
+   color: rgb(255, 211, 211);
+}
 /* DIV Container Styles */
 
 
