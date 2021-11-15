@@ -70,7 +70,17 @@ header > nav> ul > li > a:hover, header > nav > ul > li > a:active {
    color: rgb(255, 211, 211);
 }
 /* DIV Container Styles */
+div#container {
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
 
+div.cell > a {
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
 
 
 /* Footer Styles */
