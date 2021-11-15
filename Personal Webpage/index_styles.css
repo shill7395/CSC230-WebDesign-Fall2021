@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+   
+   Personal Webpage
+   Author: Shamika Hill
+   Date:   11/14/2021
+   
+   Filename: index_styles.css
+
+*/
+
+html {
+    background-color: black;
+}
+
+body {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
