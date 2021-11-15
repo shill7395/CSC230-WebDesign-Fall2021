@@ -28,6 +28,7 @@ body {
    width: 95%;
    min-width: 320px;
    max-width: 960px;
+   position: relative;
 }
 
 img {
@@ -84,3 +85,12 @@ div.cell > a {
 
 
 /* Footer Styles */
+
+footer {
+   position: absolute;
+   bottom: 8px;
+   right: 8px;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
