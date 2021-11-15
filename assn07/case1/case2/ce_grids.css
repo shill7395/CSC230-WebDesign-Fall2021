@@ -28,7 +28,9 @@ div.row::after {
 
 /* Grid Columns Styles */
 
-
+div[class^='column'] {
+   float: left;
+}
 
 
 /* Grid Spacing Styles */
