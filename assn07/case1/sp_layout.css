@@ -23,7 +23,9 @@ body {
    width: 95%;
    min-width: 640px;
    max-width: 960px;
-   margin: 0 auto;
+   /*margin: 0 auto; ----added margin left and right instead of just margin*/
+   margin-left: auto;
+   margin-right: auto;
    min-height: 100%;
 }
 
@@ -36,7 +38,7 @@ header, ul, nav, li, a {
 
 /* Row Styles */
 
-header.row::after {
+.row::after { /*removed header*/
    clear: both;
    content: "";
    display: table;
@@ -59,7 +61,7 @@ body > header > nav {
    width: 30%;
 }
 
-header > nav > a {
+body > header > nav a { /* added body and switched to nav a instead of nav > a */
    display: block;
    width: 100%;
 }
@@ -84,19 +86,20 @@ ul#topics li {
    margin-right: 1.5%;
 }
 
-#topics li:first-child {
+#topics li:first-of-type { /*changed from first-child to first-of-type*/
    margin-left: 7.75%;
 }
 
-#topics li:last-child {
+#topics li:last-of-type {  /*changed from first-child to last-of-type*/
    margin-right: 7.75%;
 }
 
-#topics img {
+#topics li img { /* added li */
    display: block;
    width: 50%;
-   margin-left: auto;
-   margin-right: auto;
+   /*margin-left: auto;
+   margin-right: auto;  removed and added just margin: 0 auto;*/
+   margin: 0 auto;
 }
 
 /* HR Styles */
@@ -110,10 +113,11 @@ hr {
 
 ul#comments {
    width: 75%;
-   margin-top: 40px;
+   /*margin-top: 40px;
    margin-bottom: 40px;
    margin-right: auto;
-   margin-left: auto;
+   margin-left: auto;  ----removed and just added margin: 40px auto;*/
+   margin: 40px auto;
 }
 
 ul#comments li {
@@ -127,11 +131,12 @@ ul#comments li img {
    display: block;
    width: 20%;
    float: left;
-   margin-left: 5%;
-   margin-right: 5%;
+   /*margin-left: 5%;
+   margin-right: 5%;----removed and added margin 0 5%;*/
+   margin: 0 5%;
 }
 
-li p {
+ul#comments li p {/*added ul#comments*/
    float: left;
    width: 70%;
 }
